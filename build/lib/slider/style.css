@@ -1,0 +1,97 @@
+#featured{ 
+	width:420px; 
+	border:0px solid #ccc;         
+    overflow:hidden;
+	background:#fff;
+    margin-left: 5px;
+    padding-top: 0px;   
+}
+#featured ul.ui-tabs-nav{ 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:420px; 
+    height:; 
+	overflow:auto;
+	overflow-x:hidden;
+    border:0px solid red;
+}
+#featured ul.ui-tabs-nav li{ 	  
+	font-size:12px; 
+	color:#666; 
+    border:0px solid blue; 
+    width:105px;
+    float: left;
+}
+#featured ul.ui-tabs-nav li img{ 
+	float:left; 
+    margin-top: 5px;
+	background:#fff;
+    margin-left:11px ; 	 
+	border:1px solid #eee;
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:11px; 
+    font-family:Verdana; 
+	line-height:18px; 
+}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	height:60px; 
+    text-decoration:none;
+	color:#333;  
+    background:#fff; 
+	line-height:20px; 
+    outline:none;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected, #featured li.ui-tabs-active{ 
+	 
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a, #featured ul.ui-tabs-nav li.ui-tabs-active a{ 
+	background:#ccc; 
+}
+#featured .ui-tabs-panel{ 
+	width:420px;  
+	background:; 
+    border: 0px solid green  ;
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+}
+#featured .ui-tabs-panel .info{ 
+    position: absolute;
+	bottom:0; left:0; 
+	height:60px; 
+	background: url('images/transparent-bg.png'); 
+    margin: 0px;
+    text-align: left;
+    padding: 5px;
+}
+#featured .ui-tabs-panel .info h2{ 
+    float: none;
+}
+#featured .ui-tabs-panel .info a.hideshow{
+	position:absolute; font-size:11px; font-family:Verdana; color:#f0f0f0; right:10px; top:-20px; line-height:20px; margin:0; outline:none; background:#333;
+}
+#featured .info h2{ 
+	font-size:1.2em;   
+	color:#fff; padding:5px; margin:0; font-weight:normal;
+	overflow:hidden; 
+}
+#featured .info p{ 
+	margin:0 5px; 
+	font-family:Verdana; font-size:11px; 
+	line-height:15px; color:#f0f0f0;
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
