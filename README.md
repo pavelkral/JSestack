@@ -18,7 +18,7 @@ Just one config file and four one line shell build scripts.Also good for start w
 
   ```shell
 	watch.sh // run webpack live compile mode
-	devserver.sh // run webpack live compile mode with dev server on port 8080 with live reload
+	devserver.sh // run webpack dev server on port 8080 with live reload
 
   ```
   
